@@ -1,0 +1,232 @@
+*{
+	padding: 0px;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.body{
+	border: 10px grey solid;
+/*	padding: 3px;*/
+}
+.navbar{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/girl.png);
+	background-repeat: no-repeat;
+    background-size: auto;
+	background-position:right 60%;
+}
+
+/*header starts*/
+
+nav{
+	display: flex;
+	padding: 20px 0;
+	align-items: center;
+	justify-content:space-between;
+	padding-top: 40px;
+	padding-left: 10%;
+	padding-right:20%;
+}
+.logo{
+	color: darkgoldenrod;
+	font-size: 40px;
+	font-style: italic;
+	cursor: pointer;
+}
+nav ul li{
+	display: inline-block;	
+	margin: 10px 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: darkred;
+
+}
+
+/*Introduction page starts*/
+
+.intro{
+	position: absolute;
+	top: 40%;
+	left:20%;
+}
+h3{
+	color: darkred;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+h2{
+	color: red;
+	font-size: 40px;
+	font-family:Candara;
+	margin-bottom: 20px;
+
+}
+.intro button{
+	background-color: skyblue;
+	color: black;
+	text-decoration: none;
+	border: 3px solid solid;
+	border-radius: 40px;
+	transition: .5s;
+	margin-top: 40px;
+	padding: 10px;
+}
+.intro button:hover{
+	background-color:indianred;
+	cursor: pointer;
+	border: 3px solid red;
+}
+
+/*About Section*/
+
+.About{
+	width: 100%;
+	height: 100%;
+	background-color: lightblue;
+	padding: 150px;
+	display: flex;
+}
+
+.text h3{
+	color: darkblue;
+	font-size: 70px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+
+}
+.text h1{
+	font-size: 40px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	text-align: left;
+	font-family: Candara;
+	text-decoration:underline 2px;
+
+
+}
+.text p{
+	width:100%;
+	padding: 25px; 
+	letter-spacing: 0.5px;
+	font-size: 15px;
+	font-family: cursive;
+
+}
+
+/*Skills Section*/
+
+.skills{
+	background-color: lightblue;
+	width:100%;
+	height: 100%;
+
+}
+.title h3{
+	color: darkblue;
+	font-size: 70px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+}
+.card{
+	height: 150px;
+	width: 250px;
+	background:lavender;
+	padding: 20px;
+	margin: auto  5px;
+	border-radius: 20px;
+	position: relative;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	margin: 10px 0px;
+}
+
+/*Icons Styling*/
+
+.fa-brands.fa-html5{
+	color: orange;
+}
+.fa-brands.fa-css3-alt{
+	color: blue;
+}
+.card h2{
+	color: red;
+	font-size: 30px;
+	margin-bottom: 5px;
+	font-family: candara;
+
+}
+
+/*Contact Section*/
+
+.contact{
+	background: lightblue;
+	display:flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	align-items: center;
+	padding: 20px;
+}
+.contact h2{
+	color: darkblue;
+	font-size: 70px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+/*Form Styling*/
+
+.form{
+	display: flex;
+	max-width: 100%;
+	flex-direction: column;
+	margin: 50px 0px;
+
+}
+.input{
+	padding: 20px;
+	margin: 15px;
+	border: none;
+}
+.msg{
+	padding:10px;
+	margin: 15px;
+	border: none;
+
+}
+
+/*Submit Button*/
+
+.submit{
+	padding: 5px;
+	width: 30%;
+	margin: 30px;
+	border-radius: 15px;
+}
+.submit:hover{
+	cursor:pointer ;
+	background-color: indianred;
+	border-radius: 15px;
+}
