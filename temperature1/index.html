@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="text-align:center;">
+        <div class="body">
+            <p>
+            <h1>TEMPERATURE CONVERTER</h1>
+            </p>
+            <div class="align">
+                <div class="Deg">
+                    <p>Degrees</p>
+                    <div><input type="number" class="t" id="degree"></div>
+                </div>
+                <div class="Deg">
+                    <p>Type</p>
+                    <select id="option">
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="celsius">Celsius</option>
+                    </select>
+                </div>
+           </div>
+           <div class="btn">
+           <button onclick="converter()" class="conv">Convert</button>
+           <button onclick="clearForm()" class="res">Reset</button>
+        </div>
+           <div class="Result">
+            <p>Result</p>
+            <div class="value"></div>
+           </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
