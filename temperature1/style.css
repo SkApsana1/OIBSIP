@@ -1,1 +1,84 @@
+*{
+    margin: 1px;
+    font-family:'calibri',sans-serif;
+    padding:0%;
+    font-size:20px;
+    box-sizing:content-box;             
+}
+.body{
+    margin:100px 400px;
+    background-color: magenta;
+    padding:50px 15px;
+    border-radius: 10px;
+    height:240px;
+    width:500px;
+    border-style: solid;
 
+}
+.align{
+    margin:0px 0px;
+    padding:4px 0px;
+    display:inline;
+    justify-content: space-between;
+    font-size:2px;
+    text-align:center;
+    width:65%;
+}
+.Deg{
+    margin:0px 5px;
+    width:80%;
+    padding:0px 50px;
+    text-align:left;
+}
+.t
+#opt{
+    width:100%;
+    font-size:15px;
+    outline:none;
+    text-align:center;
+    color: rgb(10, 20, 27);
+    background-color: rgb(60, 43, 43);
+    border:none;
+}
+.opt{
+    font-size:large;
+    margin-top:100px;
+    font-size:80px;
+}
+.value{
+    width:180%;
+    font-size:25px;
+    outline-style: solid;
+    color: rgb(208, 228, 228);
+    background-color: rgb(12, 13, 13);
+    padding:10px 0px;
+    text-align:center;
+   
+}
+.btn{
+    padding:10px 0px;
+}
+.btn .conv{
+    background-color: rgb(85, 152, 194);
+    border:none;  
+    font-size:20px;
+    border-radius: 2px;
+    border:groove;
+    width:20%;
+    align-items: left;
+}
+.btn .res{
+    background-color: rgb(85, 152, 194);
+    border:groove;
+    font-size:20px;
+    border-radius: 2px;
+    width:20%;
+   
+}
+.Result{
+    margin:10px 55px;
+    margin-top:0%;
+    text-align:left;
+    padding:0px 0px;
+    width:45%;
+}
